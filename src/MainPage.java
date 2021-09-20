@@ -215,7 +215,7 @@ public class MainPage{
 		});
 		frame.getContentPane().add(btnSetCounts);
 		
-		JLabel lblNewLabel = new JLabel("Developed by Sarujan");
+		JLabel lblNewLabel = new JLabel("Developed by Rizni Mohamed");
 		lblNewLabel.setHorizontalAlignment(SwingConstants.TRAILING);
 		lblNewLabel.setForeground(new Color(255, 255, 255));
 		lblNewLabel.setBounds(830, 585, 187, 15);
@@ -281,7 +281,7 @@ public class MainPage{
 		lblPN1.setHorizontalAlignment(SwingConstants.LEFT);
 		lblPN1.addMouseListener( new MouseAdapter() {
 			public void mouseClicked(MouseEvent e) {
-				lblPN1.setText( JOptionPane.showInputDialog("Please input mark for test 1: "));
+				lblPN1.setText( JOptionPane.showInputDialog("Enter your name: "));
 			}
 		});
 		lblPN1.setForeground(new Color(255, 255, 255));
